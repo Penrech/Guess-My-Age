@@ -22,7 +22,7 @@
 
 <h1>Video</h1>
 <p>
-  <a href='#img1'><img id='img1' width = '49%' src='guess_my_age_cover.png'/></a>
+  <a href='https://youtu.be/0r1A9y91Ljw'><img id='img1' width = '49%' src='guess_my_age_cover.png'/></a>
 </p>
 
 <h1>License</h1>
