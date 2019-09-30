@@ -17,7 +17,7 @@
   <a href='#img2'><img id='img2' width = '49%' src='IMG_0698.png'/></a>
 </p>
 <p>
-  <a href='#img3'><img id='img3' width = '49%' src='IMG_0698.png'/></a>
+  <a href='#img3'><img id='img3' width = '49%' src='IMG_0699.png'/></a>
 </p>
 
 <h1>Video</h1>
