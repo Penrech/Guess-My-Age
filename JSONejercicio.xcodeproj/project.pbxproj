@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2DEF76AFA644DC5BA54F67 /* Pods_JSONejercicio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1651EE5A37F9BFEAB5F440FA /* Pods_JSONejercicio.framework */; };
+		B9069D1F2342202400C42E92 /* FaceApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9069D1E2342202400C42E92 /* FaceApiKey.swift */; };
+		B986D18B2238019C00F0ED4E /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B986D18A2238019C00F0ED4E /* CustomProgressView.swift */; };
+		B99AD913223AA31600A6CF72 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99AD912223AA31600A6CF72 /* String+Ext.swift */; };
+		B99AD915223AB79200A6CF72 /* AccessoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99AD914223AB79200A6CF72 /* AccessoriesTableViewCell.swift */; };
 		B9CAB0F422367FDB005C8DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CAB0F322367FDB005C8DBB /* AppDelegate.swift */; };
 		B9CAB0F622367FDB005C8DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CAB0F522367FDB005C8DBB /* ViewController.swift */; };
 		B9CAB0F922367FDB005C8DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CAB0F722367FDB005C8DBB /* Main.storyboard */; };
-		B9CAB0FB22367FDC005C8DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CAB0FA22367FDC005C8DBB /* Assets.xcassets */; };
 		B9CAB0FE22367FDC005C8DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CAB0FC22367FDC005C8DBB /* LaunchScreen.storyboard */; };
+		B9CAB10B2236A6B9005C8DBB /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CAB10A2236A6B9005C8DBB /* UIColor+Ext.swift */; };
+		B9CAB10D2236BC3F005C8DBB /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CAB10C2236BC3F005C8DBB /* UIImage+Ext.swift */; };
+		B9CF7021223BCB8900839976 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CAB10722368190005C8DBB /* Comfortaa-Regular.ttf */; };
+		B9CF7022223BCB8B00839976 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CAB10822368190005C8DBB /* Comfortaa-Light.ttf */; };
+		B9CF7023223BCB8E00839976 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CAB10622368190005C8DBB /* Comfortaa-Bold.ttf */; };
+		B9CF7025223BFA7E00839976 /* FaceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF7024223BFA7E00839976 /* FaceApi.swift */; };
+		B9CFC6BD223920A600EF5E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CFC6BC223920A600EF5E6F /* Assets.xcassets */; };
+		B9CFC6BF22392DCF00EF5E6F /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CFC6BE22392DCF00EF5E6F /* DetailTableViewController.swift */; };
+		B9CFC6C12239300000EF5E6F /* AttributesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CFC6C02239300000EF5E6F /* AttributesTableViewCell.swift */; };
+		B9CFC6C32239462A00EF5E6F /* UIApplication+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CFC6C22239462A00EF5E6F /* UIApplication+Ext.swift */; };
+		B9CFC6C622394F8700EF5E6F /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CFC6C522394F8700EF5E6F /* Attributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1651EE5A37F9BFEAB5F440FA /* Pods_JSONejercicio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONejercicio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EE6C1D6AF0A682806ED6E7 /* Pods-JSONejercicio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONejercicio.release.xcconfig"; path = "Target Support Files/Pods-JSONejercicio/Pods-JSONejercicio.release.xcconfig"; sourceTree = "<group>"; };
+		B9069D1E2342202400C42E92 /* FaceApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceApiKey.swift; sourceTree = "<group>"; };
+		B986D18A2238019C00F0ED4E /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		B99AD912223AA31600A6CF72 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		B99AD914223AB79200A6CF72 /* AccessoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoriesTableViewCell.swift; sourceTree = "<group>"; };
 		B9CAB0F022367FDB005C8DBB /* JSONejercicio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONejercicio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CAB0F322367FDB005C8DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9CAB0F522367FDB005C8DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9CAB0F822367FDB005C8DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B9CAB0FA22367FDC005C8DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9CAB0FD22367FDC005C8DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9CAB0FF22367FDC005C8DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CAB10622368190005C8DBB /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		B9CAB10722368190005C8DBB /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		B9CAB10822368190005C8DBB /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		B9CAB10A2236A6B9005C8DBB /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		B9CAB10C2236BC3F005C8DBB /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		B9CF7024223BFA7E00839976 /* FaceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceApi.swift; sourceTree = "<group>"; };
+		B9CFC6BC223920A600EF5E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9CFC6BE22392DCF00EF5E6F /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		B9CFC6C02239300000EF5E6F /* AttributesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesTableViewCell.swift; sourceTree = "<group>"; };
+		B9CFC6C22239462A00EF5E6F /* UIApplication+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Ext.swift"; sourceTree = "<group>"; };
+		B9CFC6C522394F8700EF5E6F /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		DE0EC9BB7D140F47900CAF0C /* Pods-JSONejercicio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONejercicio.debug.xcconfig"; path = "Target Support Files/Pods-JSONejercicio/Pods-JSONejercicio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2DEF76AFA644DC5BA54F67 /* Pods_JSONejercicio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5DD3CE71D67BD0AD0F8E631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1651EE5A37F9BFEAB5F440FA /* Pods_JSONejercicio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B986D1892238018500F0ED4E /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B986D18A2238019C00F0ED4E /* CustomProgressView.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
 		B9CAB0E722367FDB005C8DBB = {
 			isa = PBXGroup;
 			children = (
 				B9CAB0F222367FDB005C8DBB /* JSONejercicio */,
 				B9CAB0F122367FDB005C8DBB /* Products */,
+				C3E4BEFBE46C1E0B9D130729 /* Pods */,
+				A5DD3CE71D67BD0AD0F8E631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,61 @@
 		B9CAB0F222367FDB005C8DBB /* JSONejercicio */ = {
 			isa = PBXGroup;
 			children = (
+				B9CFC6C422394F5F00EF5E6F /* model */,
+				B9CFC6BC223920A600EF5E6F /* Assets.xcassets */,
+				B986D1892238018500F0ED4E /* CustomClasses */,
+				B9CAB1092236A6A6005C8DBB /* Extensions */,
+				B9CAB1052236816B005C8DBB /* Fonts */,
 				B9CAB0F322367FDB005C8DBB /* AppDelegate.swift */,
 				B9CAB0F522367FDB005C8DBB /* ViewController.swift */,
+				B9CFC6BE22392DCF00EF5E6F /* DetailTableViewController.swift */,
+				B9CFC6C02239300000EF5E6F /* AttributesTableViewCell.swift */,
+				B99AD914223AB79200A6CF72 /* AccessoriesTableViewCell.swift */,
+				B9CF7024223BFA7E00839976 /* FaceApi.swift */,
 				B9CAB0F722367FDB005C8DBB /* Main.storyboard */,
-				B9CAB0FA22367FDC005C8DBB /* Assets.xcassets */,
 				B9CAB0FC22367FDC005C8DBB /* LaunchScreen.storyboard */,
 				B9CAB0FF22367FDC005C8DBB /* Info.plist */,
 			);
 			path = JSONejercicio;
+			sourceTree = "<group>";
+		};
+		B9CAB1052236816B005C8DBB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9CAB10622368190005C8DBB /* Comfortaa-Bold.ttf */,
+				B9CAB10822368190005C8DBB /* Comfortaa-Light.ttf */,
+				B9CAB10722368190005C8DBB /* Comfortaa-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B9CAB1092236A6A6005C8DBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B9CFC6C22239462A00EF5E6F /* UIApplication+Ext.swift */,
+				B9CAB10A2236A6B9005C8DBB /* UIColor+Ext.swift */,
+				B9CAB10C2236BC3F005C8DBB /* UIImage+Ext.swift */,
+				B99AD912223AA31600A6CF72 /* String+Ext.swift */,
+				B9069D1E2342202400C42E92 /* FaceApiKey.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B9CFC6C422394F5F00EF5E6F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B9CFC6C522394F8700EF5E6F /* Attributes.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C3E4BEFBE46C1E0B9D130729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE0EC9BB7D140F47900CAF0C /* Pods-JSONejercicio.debug.xcconfig */,
+				A9EE6C1D6AF0A682806ED6E7 /* Pods-JSONejercicio.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9CAB10222367FDC005C8DBB /* Build configuration list for PBXNativeTarget "JSONejercicio" */;
 			buildPhases = (
+				C383FEC33334861B8E429184 /* [CP] Check Pods Manifest.lock */,
 				B9CAB0EC22367FDB005C8DBB /* Sources */,
 				B9CAB0ED22367FDB005C8DBB /* Frameworks */,
 				B9CAB0EE22367FDB005C8DBB /* Resources */,
+				D18209961890A32938B5CB14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +222,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CF7021223BCB8900839976 /* Comfortaa-Regular.ttf in Resources */,
 				B9CAB0FE22367FDC005C8DBB /* LaunchScreen.storyboard in Resources */,
-				B9CAB0FB22367FDC005C8DBB /* Assets.xcassets in Resources */,
+				B9CF7023223BCB8E00839976 /* Comfortaa-Bold.ttf in Resources */,
+				B9CFC6BD223920A600EF5E6F /* Assets.xcassets in Resources */,
 				B9CAB0F922367FDB005C8DBB /* Main.storyboard in Resources */,
+				B9CF7022223BCB8B00839976 /* Comfortaa-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C383FEC33334861B8E429184 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSONejercicio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18209961890A32938B5CB14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JSONejercicio/Pods-JSONejercicio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JSONejercicio/Pods-JSONejercicio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9CAB0EC22367FDB005C8DBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CFC6C32239462A00EF5E6F /* UIApplication+Ext.swift in Sources */,
+				B99AD915223AB79200A6CF72 /* AccessoriesTableViewCell.swift in Sources */,
+				B9069D1F2342202400C42E92 /* FaceApiKey.swift in Sources */,
+				B9CFC6BF22392DCF00EF5E6F /* DetailTableViewController.swift in Sources */,
+				B9CAB10B2236A6B9005C8DBB /* UIColor+Ext.swift in Sources */,
+				B9CAB10D2236BC3F005C8DBB /* UIImage+Ext.swift in Sources */,
 				B9CAB0F622367FDB005C8DBB /* ViewController.swift in Sources */,
+				B986D18B2238019C00F0ED4E /* CustomProgressView.swift in Sources */,
 				B9CAB0F422367FDB005C8DBB /* AppDelegate.swift in Sources */,
+				B9CFC6C622394F8700EF5E6F /* Attributes.swift in Sources */,
+				B9CF7025223BFA7E00839976 /* FaceApi.swift in Sources */,
+				B99AD913223AA31600A6CF72 /* String+Ext.swift in Sources */,
+				B9CFC6C12239300000EF5E6F /* AttributesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +441,11 @@
 		};
 		B9CAB10322367FDC005C8DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0EC9BB7D140F47900CAF0C /* Pods-JSONejercicio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GVGCV4H8Q;
 				INFOPLIST_FILE = JSONejercicio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +460,11 @@
 		};
 		B9CAB10422367FDC005C8DBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EE6C1D6AF0A682806ED6E7 /* Pods-JSONejercicio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GVGCV4H8Q;
 				INFOPLIST_FILE = JSONejercicio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
